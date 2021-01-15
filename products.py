@@ -12,4 +12,5 @@ while True:
 	#products.append(name)
 print(products)
 
-products[0][0]
+for p in products: # 印出小清單分類
+    print(p[0], '的價格是', p[1])

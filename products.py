@@ -4,13 +4,9 @@ while True:
 	if name == 'q':
 	    break
 	price = input('請輸入商品價格:')
-	p = [] # 7~9裝小清單
-	#p.append(name)
-	#p.append(price)
-	#p = [name,price]
-	products.append([name, price]) # 小清單裝進大清單
-	#products.append(name)
+	p = [] 	
+	products.append([name, price]) 
 print(products)
 
-for p in products: # 印出小清單分類
+for p in products: 
     print(p[0], '的價格是', p[1])
